@@ -9,8 +9,8 @@
 //  echo "faltu na";
 // }
 
-
-if($v == 'january'){
+function season($v){
+    if($v == 'january'){
     echo 'winter season';
 }elseif($v == 'february'){
     echo 'winter season';
@@ -36,6 +36,10 @@ if($v == 'january'){
     echo 'winter season';
 }
 
+}
+
+
+season('may');
 
 // function FirstFactorial($num) {
 
