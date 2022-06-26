@@ -40,6 +40,9 @@ function season($v){
 
 
 season('may');
+echo "<br>";
+
+
 
 // function FirstFactorial($num) {
 
@@ -55,3 +58,21 @@ season('may');
 //   };
    
 //   FirstFactorial(8);
+
+#switch case break default
+function swittch($var){
+    switch($var){
+    case 98:
+        echo "windows 98";
+        break;
+    case 11:
+        echo "windows 11";
+        break;
+    default;
+        echo "windows 7";
+}
+}
+
+swittch(8);
+echo "<br>";
+swittch(11);
