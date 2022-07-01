@@ -69,3 +69,24 @@ function facto($num)
 // foreach ($array as $value) {
 //     code to be executed;
 //   }
+
+$ass = array('hitler' => '1945', 'stalin' => '1953', 'mao' => '1970', 'kim' => '2011');
+
+foreach ($ass as $value => $x) {
+    echo "$value = $x <br>";
+}
+
+#break and continue
+// break statement can also be used to jump out of a loop
+function breakpoint()
+{
+    for ($i = 0; $i < 10; $i++) {
+        if ($i == 5) {
+            // break; #Stops the execution at the condition
+            continue;
+        }
+        echo "the number is: $i <br>";
+    }
+}
+
+breakpoint();
