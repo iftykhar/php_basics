@@ -53,3 +53,9 @@ echo "<br>";
 foreach ($age2 as $key => $value) {
     echo "name:.$key age: $value<br>";
 }
+
+
+// multi-dimensional array
+// A multidimensional array is an array containing one or more arrays.
+
+// PHP supports multidimensional arrays that are two, three, four, five, or more levels deep. However, arrays more than three levels deep are hard to manage for most people.
